@@ -25,8 +25,8 @@ function Example(props){
     function handleFunction(){}
     return(
         <div>
-            show state's value:{stateName}
-            setState:<button onClick={()=>setStateName(state)}>Click me</button>
+            <p>show state's value:{stateName}</p>
+            <label>setState:</label><button onClick={()=>setStateName(state)}>Click me</button>
         </div>
     )
 }
